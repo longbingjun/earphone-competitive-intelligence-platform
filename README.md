@@ -36,6 +36,7 @@ python -m venv .venv
 .\.venv\Scripts\Activate.ps1
 pip install -r requirements.txt
 python -m pytest -q
+python scripts/prepare_web_data.py
 
 cd web
 npm ci
