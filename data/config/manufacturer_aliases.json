@@ -1,0 +1,6 @@
+{
+  "version": "public-empty-v1",
+  "policy": "Only reviewed exact aliases may be merged. Parent, subsidiary, and merely similar entities remain separate.",
+  "invalid_values": [],
+  "groups": []
+}

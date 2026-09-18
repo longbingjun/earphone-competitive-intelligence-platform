@@ -1,0 +1,64 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+.astro/
+node_modules/
+.pnpm-store/
+.coverage
+*.db
+*.egg-info/
+.DS_Store
+Thumbs.db
+
+# Astro build output; regenerate it in CI or during local verification.
+site/
+runtime/
+
+# Generated web payload. Recreated by scripts/prepare_web_data.py in CI.
+web/public/data/
+
+# Optimized images are generated runtime objects and are not part of this
+# source-only public snapshot.
+web/public/images/
+
+# Generated or private derived-data mirrors.
+data/products/
+data/enrich/
+data/compare/
+data/matrix/
+
+# Local research scratch space is never a deployable artifact.
+scratch_price_research/
+
+# Local editable human-review worksheets and generated review previews.
+# Accepted outcomes are normalized into data/config, not committed as notes.
+reports/human-review/
+reports/data-quality/
+pilot-results/
+
+# Raw article downloads are rebuild inputs, not production seed data.
+data/cache/content_html/
+
+# Full-corpus summaries are private/generated data, not source code.
+data/staging/llm_summaries/
+
+# Browser cookies exported for yt-dlp (contains login session, never commit)
+data/cookies.txt
+cookies.txt
+data/cookies_jd.txt
+secrets/
+*.cookies.txt
+*.cookie
+
+# Chrome browser profile for JD scraping (never commit)
+data/jd_browser_profile/
+
+# Chrome browser profile for JD scraping (never commit)
+data/jd_browser_profile/
+
+# API secrets
+.env
+.env.local
+.env.*.local

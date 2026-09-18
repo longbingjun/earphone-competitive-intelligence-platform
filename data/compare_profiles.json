@@ -1,0 +1,12 @@
+{
+  "default_profile": "default",
+  "profiles": {
+    "default": {
+      "label": "通用耳机",
+      "categories": ["*"],
+      "p0": ["launch_date", "price_cny", "main_chip", "battery_ear", "speaker", "materials", "bluetooth", "bom_rows"],
+      "p1": ["ip_rating", "selling_point_tags", "scenarios", "positioning_summary"]
+    }
+  },
+  "param_labels": {}
+}
