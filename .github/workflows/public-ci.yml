@@ -16,7 +16,7 @@ jobs:
         with:
           python-version: "3.11"
       - run: python scripts/validate_public_repository.py
-      - run: pip install -r requirements.txt
+      - run: pip install -r requirements.txt pytest
       - run: python -m pytest -q
 
   web-build:
